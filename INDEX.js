@@ -39,4 +39,4 @@ function square(number){
 }
 }
 
-console.log(square(30))
+// console.log(square(30))
