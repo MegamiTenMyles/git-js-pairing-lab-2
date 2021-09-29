@@ -29,3 +29,14 @@ function multiplesOfFourOrSeven(){
   }
 }
 // multiplesOfFourOrSeven()
+
+function square(number){
+  if (Math.sqrt(number) % 1 === 0 ){ 
+    return Math.sqrt(number)
+  
+}else{
+  return Math.pow(number , 2)
+}
+}
+
+console.log(square(30))
